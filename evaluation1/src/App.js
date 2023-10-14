@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import CountryCapital from "./CountryCapital";
+import CountryCapital from "./CountryCapital.js";
 
 function App() {
   const data = {

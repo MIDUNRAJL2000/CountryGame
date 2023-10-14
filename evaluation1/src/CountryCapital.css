@@ -1,23 +1,24 @@
-.button-row {
-  display: flex;
-  justify-content: space-between; /* or any other spacing method you prefer */
-  align-items: center; /* To vertically center the buttons */
-  flex-wrap: wrap; /* Wrap to the next line if there are too many buttons */
-}
-
-.button-container {
-  margin: 5px; /* Adjust the margin as needed for spacing between buttons */
-}
-
-.blue-button {
-  background-color: blue;
+.buttons {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
   color: white;
-  padding: 5px 10px; /* Add padding for better button appearance */
-  border: none; /* Remove the default button border */
-  cursor: pointer; /* Add a pointer cursor on hover */
-  outline: none; /* Remove the default button outline on focus */
+  margin: 8px;
+  padding: 12px 18px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+button.selected {
+  background-color: #0000ff;
 }
 
-.blue-button:hover {
-  background-color: navy; /* Change color on hover */
+button.incorrect {
+  background-color: #ff0000;
+}
+h1 {
+  color: red;
+  text-decoration: underline;
+  font-style: italic;
 }
